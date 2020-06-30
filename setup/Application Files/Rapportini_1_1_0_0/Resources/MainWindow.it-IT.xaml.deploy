@@ -1,0 +1,28 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Rapportini" xmlns:system="clr-namespace:System;assembly=mscorlib">
+
+
+    <!-- Resource per UpgradeVersion-->
+    <system:String x:Key="DeploymentDownloadException" xml:space="preserve">La nuova versione non può essere scaricata ora. &#13;&#13;Controlla la connessione di rete. Errore: </system:String>
+    <system:String x:Key="InvalidDeploymentException">Impossibile verificare una nuova versione dell'applicazione. Il deployment di ClickOnce è corrotto. Reinstalla l'app e riprova. Errore:</system:String>
+    <system:String x:Key="InvalidOperationException">Impossibile aggiornare l'applicazione! Non è un problema ClickOnce. Errore:</system:String>
+    <system:String x:Key="UpdAvailTitle">Aggiornamento disponibile</system:String>
+    <system:String x:Key="UpdAvail">E' disponibile una nuova versione. Aggiornare ora?</system:String>
+    <system:String x:Key="UpgOk">L'aggiornamento è avvenuto correttamente. L'applicazione verrà riavviata</system:String>
+    <system:String x:Key="UpgFailed">Errore durante l'upgrade.\n\nVerifica la connessione o riprova. Errore:</system:String>
+    <system:String x:Key="UpgMandatory">E' stato rilevato un aggiornamento obbligatorio alla versione {0}. L'upgrade verrà installato e l'applicazione riavviata</system:String>
+
+
+    <!-- Resource per CheckVersion-->
+    <system:String x:Key="NewVersion">Nuova versione disponibile: v</system:String>
+    <system:String x:Key="LatestVersion">L'applicazione è già aggiornata all'ultima release</system:String>
+    <system:String x:Key="LatestVersTitle">Nessun aggiornamento disponibile</system:String>
+    <system:String x:Key="UpgMandatoryAlert">Aggiornamento obbligatorio disponibile!</system:String>
+    <system:String x:Key="UpgAlertToolTip">E' disponibile una nuova release</system:String>
+
+    <system:String  xml:space="preserve" x:Key="Refreshupg">Check &#13;update</system:String>
+
+
+
+</ResourceDictionary>
